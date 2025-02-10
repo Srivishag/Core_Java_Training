@@ -21,7 +21,7 @@ class Employee {
 		System.out.format("Updated Salary : %.2f \n",salary);
 	}
 	
-	void display() {
+	void display() { 
 		System.out.println("Employee information");
 		System.out.println("Name :" + name);
 		System.out.println("Job Title : "+ jobTitle);
