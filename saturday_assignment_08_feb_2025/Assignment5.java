@@ -1,4 +1,4 @@
-package com.celcom.week1Assignment;
+package com.celcom.saturday_assignment_08_feb_2025;
 
 import java.util.ArrayList;
 import java.util.Scanner;
