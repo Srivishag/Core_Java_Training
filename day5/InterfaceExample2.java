@@ -36,7 +36,7 @@ class Fish extends Animal{
 	}
 }
 
-public class InterfaceExample2 {
+public class InterfaceExample2{
 	public static void main(String[] args) {
 		Animal animal ;
 		animal = new Cat();
