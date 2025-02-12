@@ -5,6 +5,7 @@ class Animals{
 	int getNum() {
 		return 2;
 	}
+	
 	{System.out.println("Animals");}
 }
 class Cats extends Animals{
