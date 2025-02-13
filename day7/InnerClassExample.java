@@ -4,7 +4,7 @@ interface MyInterface {
 	void display();
 }
 
-public class InnerClassExample1 {
+public class InnerClassExample {
 
 	// Inner Class
 	class InnerClass {
@@ -31,10 +31,10 @@ public class InnerClassExample1 {
 	}
 
 	public static void main(String[] args) {
-		InnerClassExample1 obj = new InnerClassExample1();
+		InnerClassExample obj = new InnerClassExample();
 		InnerClass inner1 = obj.new InnerClass();
 		inner1.myMethod1();
-		InnerClassExample1.InnerClassStatic inner2 = new InnerClassExample1.InnerClassStatic();
+		InnerClassExample.InnerClassStatic inner2 = new InnerClassExample.InnerClassStatic();
 		inner2.myMethod2();
 
 		MyInterface obj1 = new MyInterface() {

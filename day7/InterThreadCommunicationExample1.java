@@ -49,7 +49,7 @@ class Writer extends Thread {
 	}
 }
 
-public class InterThreadCommunication {
+public class InterThreadCommunicationExample1 {
 	public static void main(String[] args) {
 		Resource resource = new Resource();
 		Reader reader = new Reader(resource);
