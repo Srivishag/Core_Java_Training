@@ -53,7 +53,7 @@ public class SerializationExample {
 		// Serialization
 		Employee vishag = new Employee(101, "Srivishag P", 15000);
 		FileOutputStream fout = new FileOutputStream(
-				"D://Java Workspace//MyJavaProject//src//com//celcom//day8//ObjectFile.txt");
+				"D://Java Workspace//MyJavaProject//src//com//celcom//day9//ObjectFile.txt");
 		ObjectOutputStream objout = new ObjectOutputStream(fout);
 		objout.writeObject(vishag);
 		objout.close();
@@ -62,7 +62,7 @@ public class SerializationExample {
 
 		// Deserialization
 		FileInputStream fin = new FileInputStream(
-				"D://Java Workspace//MyJavaProject//src//com//celcom//day8//ObjectFile.txt");
+				"D://Java Workspace//MyJavaProject//src//com//celcom//day9//ObjectFile.txt");
 		ObjectInputStream objin = new ObjectInputStream(fin);
 		vishag = (Employee) objin.readObject();
 		System.out.println(vishag);
