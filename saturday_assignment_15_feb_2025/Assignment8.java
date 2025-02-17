@@ -4,6 +4,9 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Scanner;
 
+//Write a Java program to iterate a linked list in reverse order.
+
+
 public class Assignment8 {
 	public static void main(String[] args) {
 		List<Integer> linkedlist = new LinkedList<>();

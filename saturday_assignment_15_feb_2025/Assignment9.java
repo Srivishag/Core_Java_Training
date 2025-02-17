@@ -4,6 +4,9 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Scanner;
 
+// Write a Java program to display elements and their positions in a linked list.
+
+
 public class Assignment9 {
 	public static void main(String[] args) {
 		List<Integer> linkedlist = new LinkedList<>();
