@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class MainClass {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-
+        Bank bankManager = new Bank();
         while (true) {
             System.out.println("\nWelcome to Bank of Celcom");
             System.out.println("Please choose an option from below:");
@@ -20,7 +20,7 @@ public class MainClass {
             // Validate input
             if (!in.hasNextInt()) {
                 System.out.println("Invalid input! Please enter a number between 1 and 6.");
-                in.next(); // Consume invalid input
+                in.nextLine(); // Consume invalid input
                 continue;
             }
 
@@ -29,19 +29,19 @@ public class MainClass {
 
             switch (choice) {
                 case 1:
-                    Bank.addAccount();
+                    bankManager.addAccount();
                     break;
                 case 2:
-                    Bank.removeAccount();
+                    bankManager.removeAccount();
                     break;
                 case 3:
-                    Bank.deposit();
+                    bankManager.deposit();
                     break;
                 case 4:
-                    Bank.withdraw();
+                    bankManager.withdraw();
                     break;
                 case 5:
-                    Bank.checkBalance();
+                    bankManager.checkBalance();
                     break;
                 case 6:
                     System.out.println("Thank You for Using Our Service 🙏");

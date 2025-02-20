@@ -5,10 +5,10 @@ public class Account {
     private String name;
     private long accountNumber;
     private int pin;
-    private int balance;
+    private double balance;
 
     // Constructor to initialize account details
-    public Account(String name, long accountNumber, int pin, int balance) {
+    public Account(String name, long accountNumber, int pin, double balance) {
         this.name = name;
         this.accountNumber = accountNumber;
         this.pin = pin;
@@ -43,11 +43,11 @@ public class Account {
     }
 
     // Getter and Setter for Balance
-    public int getBalance() {
+    public double getBalance() {
         return balance;
     }
 
-    public void setBalance(int balance) {
+    public void setBalance(double balance) {
         this.balance = balance;
     }
 }
