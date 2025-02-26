@@ -34,11 +34,11 @@ public class ThreadExample3 {
 		t1.setPriority(10);
 
 		// Experimenting with Threads
-		t1.suspend(); // does not work for newer version of java
+		//t1.suspend(); // does not work for newer version of java
 
 		t1.start();
 
-		t1.resume(); // does not work for newer version of java
+		//t1.resume(); // does not work for newer version of java
 		Thread.sleep(1000);
 		System.out.println("MAIN_END");
 
